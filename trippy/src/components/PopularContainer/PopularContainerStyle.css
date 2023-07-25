@@ -1,0 +1,39 @@
+.popular .container{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.popular .container.reverse{
+    flex-direction: row-reverse;
+}
+
+.popular .container .imgs{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.popular .container .imgs img{
+    width: calc(50% - 10px);
+    height: 330px;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.popular .container .info{
+    width: 50%;
+}
+
+.popular .container .info h2{
+    padding-bottom: 1rem;
+}
+
+/* .popular .container .info p{
+    width: 80%;
+} */

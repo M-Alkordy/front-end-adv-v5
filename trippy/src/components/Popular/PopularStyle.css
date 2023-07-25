@@ -1,0 +1,14 @@
+.popular {
+    margin-top: 5rem;
+}
+
+.popular .title{
+    width: max-content;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.popular .sec-title{
+    width: max-content;
+    margin: 0 auto;
+}
