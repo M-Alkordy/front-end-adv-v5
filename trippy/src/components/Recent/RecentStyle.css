@@ -1,0 +1,22 @@
+.resent {
+    margin-top: 5rem;
+}
+
+.resent .title{
+    width: max-content;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.resent .sec-title{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.resent .container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 0;
+}
